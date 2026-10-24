@@ -1,0 +1,15 @@
+Legume: /workspace/legume/legume/__init__.py
+Solver: gmax=4.5, gmode_inds=[0, 3], truncate_g=abs, compute_im=False, numeig=12
+k points: 201 (101 per segment including endpoints)
+Plane waves: 55 basis dimensions: 91 -- 96
+K/Gamma/M wavelengths (nm): {'K': 1145.091917272893, 'Gamma': 815.8094391344013, 'M': 1271.3755889039023}
+Gamma normalized frequency: 0.8874621514163725
+Highres minus midres Case C (nm): {'K': 0.0, 'Gamma': 0.0, 'M': 0.0}
+Minimum adjacent overlap: 0.9965380322020212 at path index 200
+Sorted band swaps: [{'between_path_indices': [0, 1], 'path_coordinate_midpoint': -0.6633333333333333, 'from_sorted_band_1based': 2, 'to_sorted_band_1based': 3, 'adjacent_overlap': 0.9999994463646521}, {'between_path_indices': [38, 39], 'path_coordinate_midpoint': -0.41000000000000003, 'from_sorted_band_1based': 3, 'to_sorted_band_1based': 2, 'adjacent_overlap': 0.9999966073569353}]
+Overlap below 0.9 indices: []
+Target ranges inside 740--880 nm: [{'start_index': 69, 'stop_index': 132, 'start_path_coordinate': -0.2066666666666666, 'stop_path_coordinate': 0.18475208614067876, 'start_section': 'K-Gamma', 'stop_section': 'Gamma-M', 'start_wavelength_nm': 879.6354599573609, 'stop_wavelength_nm': 876.6535145271839}]
+Gamma local wavelength minimum: True
+Local quadratic fits: {'K_side': {'quadratic_coefficients_nm': [2345.2922016700613, -8.510525939014835, 815.785161379642], 'curvature_second_derivative_nm': 4690.584403340123, 'fitted_slope_at_gamma_nm': -8.510525939014835, 'rms_residual_nm': 0.02098169834403137}, 'M_side': {'quadratic_coefficients_nm': [2431.8361496515768, 5.731507156764615, 815.7952061210932], 'curvature_second_derivative_nm': 4863.6722993031535, 'fitted_slope_at_gamma_nm': 5.731507156764615, 'rms_residual_nm': 0.012359188887960205}}
+NaN/Inf validation passed; target tracking continuous
+=== high-resolution run completed successfully ===
