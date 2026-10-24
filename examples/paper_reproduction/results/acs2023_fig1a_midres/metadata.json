@@ -1,0 +1,214 @@
+{
+  "structure": {
+    "a_nm": 724.0,
+    "thickness_over_a": 0.13812154696132597,
+    "radius_over_a": 0.27624309392265195,
+    "slab_eps": 4.0,
+    "upper_cladding_eps": 1.0,
+    "lower_cladding_eps": 1.0
+  },
+  "path": {
+    "labels": [
+      "K",
+      "Gamma",
+      "M"
+    ],
+    "intervals_per_segment": 30,
+    "points_per_segment_including_endpoints": 31,
+    "total_unique_points": 61,
+    "high_symmetry_ka": {
+      "K": [
+        4.1887902047863905,
+        0.0
+      ],
+      "Gamma": [
+        0.0,
+        0.0
+      ],
+      "M": [
+        3.141592653589793,
+        1.8137993642342178
+      ]
+    }
+  },
+  "solver": {
+    "A": {
+      "gmax": 3.5,
+      "gmode_inds": [
+        0
+      ],
+      "truncate_g": "abs",
+      "numeig": 12,
+      "compute_im": false,
+      "plane_waves": 37,
+      "basis_dimensions_min_max": [
+        37,
+        37
+      ]
+    },
+    "B": {
+      "gmax": 4.5,
+      "gmode_inds": [
+        0
+      ],
+      "truncate_g": "abs",
+      "numeig": 12,
+      "compute_im": false,
+      "plane_waves": 55,
+      "basis_dimensions_min_max": [
+        55,
+        55
+      ]
+    },
+    "C": {
+      "gmax": 4.5,
+      "gmode_inds": [
+        0,
+        3
+      ],
+      "truncate_g": "abs",
+      "numeig": 12,
+      "compute_im": false,
+      "plane_waves": 55,
+      "basis_dimensions_min_max": [
+        91,
+        96
+      ]
+    }
+  },
+  "basis_rationale": "[0,3] is the next positive horizontal-parity basis documented in docs/faq.rst and examples 0.4/1.1; [1,2] is the negative-parity quasi-TM basis.",
+  "gamma_cross_case_common_basis_counts": {
+    "A_to_B": 37,
+    "B_to_C": 55
+  },
+  "gamma_cross_case_match_overlaps": {
+    "A_to_B": 0.9999999352909282,
+    "B_to_C": 0.9999991896440198
+  },
+  "high_symmetry_target_wavelengths_nm": {
+    "A": {
+      "K": 1146.3832244192886,
+      "Gamma": 815.5542523174724,
+      "M": 1272.1625713210503
+    },
+    "B": {
+      "K": 1144.7553145671352,
+      "Gamma": 815.562336206833,
+      "M": 1270.904426575143
+    },
+    "C": {
+      "K": 1145.091917272893,
+      "Gamma": 815.8094391344013,
+      "M": 1271.3755889039023
+    }
+  },
+  "signed_wavelength_differences_nm": {
+    "A_vs_B_nm": {
+      "K": 1.6279098521533797,
+      "Gamma": -0.008083889360591456,
+      "M": 1.2581447459074298
+    },
+    "B_vs_C_nm": {
+      "K": -0.3366027057577412,
+      "Gamma": -0.24710292756822128,
+      "M": -0.4711623287594193
+    }
+  },
+  "tracking": {
+    "A": {
+      "gamma_initial_sorted_band_1based": 2,
+      "unique_sorted_band_indices_1based": [
+        2,
+        3
+      ],
+      "sorted_index_change_steps": [
+        0,
+        11
+      ],
+      "ambiguous_overlap_steps": [],
+      "minimum_adjacent_overlap": 0.9672019240578741,
+      "minimum_overlap_margin": 0.7132411495401478
+    },
+    "B": {
+      "gamma_initial_sorted_band_1based": 2,
+      "unique_sorted_band_indices_1based": [
+        2,
+        3
+      ],
+      "sorted_index_change_steps": [
+        0,
+        11
+      ],
+      "ambiguous_overlap_steps": [],
+      "minimum_adjacent_overlap": 0.9676511202042868,
+      "minimum_overlap_margin": 0.7154073640195435
+    },
+    "C": {
+      "gamma_initial_sorted_band_1based": 2,
+      "unique_sorted_band_indices_1based": [
+        2,
+        3
+      ],
+      "sorted_index_change_steps": [
+        0,
+        11
+      ],
+      "ambiguous_overlap_steps": [],
+      "minimum_adjacent_overlap": 0.9674975233257571,
+      "minimum_overlap_margin": 0.7146653262727446
+    }
+  },
+  "shape_checks": {
+    "A": {
+      "gamma_local_wavelength_minimum": true,
+      "near_gamma_wavelengths_nm_K_side_Gamma_M_side": [
+        816.9105230082193,
+        815.5542523174724,
+        816.5772383399915
+      ]
+    },
+    "B": {
+      "gamma_local_wavelength_minimum": true,
+      "near_gamma_wavelengths_nm_K_side_Gamma_M_side": [
+        816.8818139321108,
+        815.562336206833,
+        816.5572540866597
+      ]
+    },
+    "C": {
+      "gamma_local_wavelength_minimum": true,
+      "near_gamma_wavelengths_nm_K_side_Gamma_M_side": [
+        817.1269429483506,
+        815.8094391344013,
+        816.802844373739
+      ]
+    }
+  },
+  "bands_sampled_in_740_880_nm": {
+    "A": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "B": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "C": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "limitations": [
+    "Adjacent-k tracking uses eigenvector overlap on the shared guided-mode/Fourier basis.",
+    "Greedy single-mode tracking can be ambiguous inside an exactly degenerate subspace.",
+    "The paper figure/data were not supplied, so correspondence is assessed by dispersion shape only.",
+    "This is a mid-resolution check, not a final gmax or basis convergence study.",
+    "Constant eps=4 is used without material dispersion."
+  ]
+}

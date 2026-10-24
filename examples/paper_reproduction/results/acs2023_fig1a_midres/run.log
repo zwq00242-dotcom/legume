@@ -1,0 +1,21 @@
+Legume: /workspace/legume/legume/__init__.py
+k points: 61 (31 per segment including endpoints)
+Case A: gmax=3.5, gmode_inds=[0], numeig=12, plane_waves=37, basis_dim=37--37
+  Gamma matched sorted band: 2
+  K/Gamma/M wavelengths (nm): {'K': 1146.3832244192886, 'Gamma': 815.5542523174724, 'M': 1272.1625713210503}
+  tracking: {'gamma_initial_sorted_band_1based': 2, 'unique_sorted_band_indices_1based': [2, 3], 'sorted_index_change_steps': [0, 11], 'ambiguous_overlap_steps': [], 'minimum_adjacent_overlap': 0.9672019240578741, 'minimum_overlap_margin': 0.7132411495401478}
+  Gamma-neighbor shape: {'gamma_local_wavelength_minimum': True, 'near_gamma_wavelengths_nm_K_side_Gamma_M_side': [816.9105230082193, 815.5542523174724, 816.5772383399915]}
+Case B: gmax=4.5, gmode_inds=[0], numeig=12, plane_waves=55, basis_dim=55--55
+  Gamma matched sorted band: 2
+  K/Gamma/M wavelengths (nm): {'K': 1144.7553145671352, 'Gamma': 815.562336206833, 'M': 1270.904426575143}
+  tracking: {'gamma_initial_sorted_band_1based': 2, 'unique_sorted_band_indices_1based': [2, 3], 'sorted_index_change_steps': [0, 11], 'ambiguous_overlap_steps': [], 'minimum_adjacent_overlap': 0.9676511202042868, 'minimum_overlap_margin': 0.7154073640195435}
+  Gamma-neighbor shape: {'gamma_local_wavelength_minimum': True, 'near_gamma_wavelengths_nm_K_side_Gamma_M_side': [816.8818139321108, 815.562336206833, 816.5572540866597]}
+Case C: gmax=4.5, gmode_inds=[0, 3], numeig=12, plane_waves=55, basis_dim=91--96
+  Gamma matched sorted band: 2
+  K/Gamma/M wavelengths (nm): {'K': 1145.091917272893, 'Gamma': 815.8094391344013, 'M': 1271.3755889039023}
+  tracking: {'gamma_initial_sorted_band_1based': 2, 'unique_sorted_band_indices_1based': [2, 3], 'sorted_index_change_steps': [0, 11], 'ambiguous_overlap_steps': [], 'minimum_adjacent_overlap': 0.9674975233257571, 'minimum_overlap_margin': 0.7146653262727446}
+  Gamma-neighbor shape: {'gamma_local_wavelength_minimum': True, 'near_gamma_wavelengths_nm_K_side_Gamma_M_side': [817.1269429483506, 815.8094391344013, 816.802844373739]}
+Gamma cross-case match overlaps: {'A_to_B': 0.9999999352909282, 'B_to_C': 0.9999991896440198}
+Signed wavelength differences (first minus second, nm): {'A_vs_B_nm': {'K': 1.6279098521533797, 'Gamma': -0.008083889360591456, 'M': 1.2581447459074298}, 'B_vs_C_nm': {'K': -0.3366027057577412, 'Gamma': -0.24710292756822128, 'M': -0.4711623287594193}}
+All gme.run calls completed; compute_im=False
+=== mid-resolution convergence run completed successfully ===
