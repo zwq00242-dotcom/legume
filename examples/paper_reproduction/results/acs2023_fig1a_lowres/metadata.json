@@ -1,0 +1,67 @@
+{
+  "a_nm": 724.0,
+  "thickness_over_a": 0.13812154696132597,
+  "radius_over_a": 0.27624309392265195,
+  "slab_eps": 4.0,
+  "cladding_eps": 1.0,
+  "gmax": 3.5,
+  "truncate_g": "abs",
+  "gmode_inds": [
+    0
+  ],
+  "numeig": 10,
+  "compute_im": false,
+  "kpoints_total": 25,
+  "kpoints_per_segment_including_endpoints": 13,
+  "high_symmetry_ka": {
+    "K": [
+      4.1887902047863905,
+      0.0
+    ],
+    "Gamma": [
+      0.0,
+      0.0
+    ],
+    "M": [
+      3.141592653589793,
+      1.8137993642342178
+    ]
+  },
+  "plane_waves": 37,
+  "gamma_frequencies": [
+    3.190652682768957e-08,
+    0.8877398382053522,
+    0.9354995299130361,
+    0.9354995299130363,
+    0.958216935443772,
+    1.0416971504823354,
+    1.0416971504823358,
+    1.4027845015853837,
+    1.4060276555672306,
+    1.406027655567231
+  ],
+  "gamma_wavelengths_nm": [
+    22691282066.203712,
+    815.5542523174724,
+    773.9180799666494,
+    773.9180799666492,
+    755.5700313986824,
+    695.0196606228283,
+    695.019660622828,
+    516.1163380275143,
+    514.925860194349,
+    514.9258601943487
+  ],
+  "bands_sampled_in_740_880_nm": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "caveats": [
+    "No gmax or guided-basis convergence study.",
+    "Band indices are frequency sorted, not overlap tracked.",
+    "Constant eps=4; no material dispersion.",
+    "Original Figure 1(a) was not supplied for visual comparison."
+  ]
+}

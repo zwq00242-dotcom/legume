@@ -1,0 +1,21 @@
+legume: /workspace/legume/legume/__init__.py
+gme.run completed; shape: (25, 10)
+Normalized thickness, radius: 0.13812154696132597 0.27624309392265195
+High-symmetry k*a: {'K': [4.1887902047863905, 0.0], 'Gamma': [0.0, 0.0], 'M': [3.141592653589793, 1.8137993642342178]}
+Plane waves: 37
+Gamma frequencies: [3.19065268e-08 8.87739838e-01 9.35499530e-01 9.35499530e-01
+ 9.58216935e-01 1.04169715e+00 1.04169715e+00 1.40278450e+00
+ 1.40602766e+00 1.40602766e+00]
+Gamma wavelengths (nm): [2.26912821e+10 8.15554252e+02 7.73918080e+02 7.73918080e+02
+ 7.55570031e+02 6.95019661e+02 6.95019661e+02 5.16116338e+02
+ 5.14925860e+02 5.14925860e+02]
+Band 2: sampled wavelengths in window 815.554252--862.468214 nm (7 points); Gamma=815.554252 nm
+Band 3: sampled wavelengths in window 773.918080--871.682193 nm (17 points); Gamma=773.918080 nm
+Band 4: sampled wavelengths in window 746.255206--821.954140 nm (19 points); Gamma=773.918080 nm
+Band 5: sampled wavelengths in window 742.074747--762.106730 nm (8 points); Gamma=755.570031 nm
+Near Gamma (signed k*a/2pi, wavelengths of bands in target window):
+-0.055555555555555566 [823.24357353 776.95243043 769.00518672 762.10672991]
+0.0 [815.55425232 773.91807997 773.91807997 755.5700314 ]
+0.0481125224324688 [821.48504625 775.22986001 771.10502134 760.60308452]
+All 250 frequency/wavelength/k-point records: /workspace/legume/examples/paper_reproduction/results/acs2023_fig1a_lowres/bands.csv
+=== low-resolution run completed successfully ===
