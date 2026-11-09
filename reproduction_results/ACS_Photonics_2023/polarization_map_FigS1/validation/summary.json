@@ -1,0 +1,29 @@
+{
+  "scan_points": 961,
+  "valid_axes": 960,
+  "gamma_Q_numerical": 5.366567204672452e+29,
+  "gamma_freq_im": 8.268434155112196e-31,
+  "gamma_S0": 2.860183055210452e-29,
+  "minimum_overlap": 0.9968540780606763,
+  "minimum_margin": 0.918425732999611,
+  "minimum_frequency_gap": 0.03916767879052596,
+  "max_abs_S3_over_S0": 0.019396643220142295,
+  "max_ellipticity_degrees": 0.5557077459655492,
+  "charge_min": -2.0000000000000004,
+  "charge_max": -1.9999999999999998,
+  "max_C6_axis_error_rad": 2.0230928043929453e-11,
+  "max_TR_axis_error_rad": 1.929961745972264e-11,
+  "max_reciprocity_residual": 2.9945279473128386e-15,
+  "grid11_vs31_max_axis_error_rad": 0.0,
+  "g4p5_vs_g6p5_expanded_max_axis_error_deg": 0.08567570070248515,
+  "g4p5_vs_g6p5_expanded_max_relative_frequency_change": 0.0011919641837879746,
+  "g4p5_vs_g6p5_expanded_median_relative_Q_change": 0.011170564186151755,
+  "Q_log_slope_r001_to002": -3.933516051665334,
+  "actual_expanded_guided_modes": [
+    0,
+    3,
+    4
+  ],
+  "max_C6_or_TR_frequency_difference": 1.454392162258955e-14,
+  "max_C6_or_TR_relative_Q_difference": 4.9644066635323725e-11
+}
