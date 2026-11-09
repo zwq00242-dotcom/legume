@@ -1,0 +1,58 @@
+{
+  "scan": [
+    {
+      "alpha": 0,
+      "points": 2601,
+      "valid": 2600,
+      "min_overlap": 0.9995782782622761,
+      "min_gap": 0.027991167074912116,
+      "max_abs_S3": 0.0010294178612143474,
+      "gamma_Q": 1.0867897658226348e+22,
+      "gamma_S0": 1.0190819230375421e-21,
+      "grid31_vs51_stokes_error": 6.485586047130041e-13,
+      "mirror_x_S3_error": 8.396472862053804e-15,
+      "TR_frequency_error": 6.994405055138486e-15,
+      "TR_Q_relative_error": 1.9509949211737876e-12
+    },
+    {
+      "alpha": 0.1,
+      "points": 2601,
+      "valid": 2601,
+      "min_overlap": 0.9997667173654416,
+      "min_gap": 0.027975584079481086,
+      "max_abs_S3": 0.9958829665340665,
+      "gamma_Q": 18742.72800414185,
+      "gamma_S0": 0.0005905471733910502,
+      "grid31_vs51_stokes_error": 4.865677732414624e-13,
+      "mirror_x_S3_error": 2.7668645281980927e-12,
+      "TR_frequency_error": 6.439293542825908e-15,
+      "TR_Q_relative_error": 2.7988722450800196e-12
+    },
+    {
+      "alpha": 1,
+      "points": 2601,
+      "valid": 2601,
+      "min_overlap": 0.9998836433499192,
+      "min_gap": 0.04082404076309565,
+      "max_abs_S3": 0.9999936975825838,
+      "gamma_Q": 541.145261123329,
+      "gamma_S0": 0.019782498627162245,
+      "grid31_vs51_stokes_error": 2.537969834293108e-13,
+      "mirror_x_S3_error": 3.975292317548451e-13,
+      "TR_frequency_error": 6.328271240363392e-15,
+      "TR_Q_relative_error": 1.6364687382974807e-13
+    }
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": {
+      "legume-gme": "1.0.3",
+      "numpy": "1.26.4",
+      "scipy": "1.14.1",
+      "matplotlib": "3.9.4",
+      "autograd": "1.7.0"
+    }
+  },
+  "max_reciprocity_residual": 1.0630090814529518e-13
+}

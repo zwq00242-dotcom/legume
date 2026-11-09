@@ -1,0 +1,18 @@
+{
+  "alpha": 1.0,
+  "legume": "1.0.3",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "gmax": 4.5,
+  "gmode_inds": [
+    0,
+    3
+  ],
+  "truncate_g": "abs",
+  "numeig": 12,
+  "kz_symmetry": null,
+  "grid": 51,
+  "extent": 0.05,
+  "source": "01_legume_Fig2_abc_TE_bands.ipynb",
+  "jones": "c_s(-k)*s(k)-c_p(-k)*cos(theta)*p(k)",
+  "amplitude_units": "loss normalized, common field scale omitted"
+}

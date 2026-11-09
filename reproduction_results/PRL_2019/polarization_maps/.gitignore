@@ -1,0 +1,3 @@
+data/*/
+data/*_grid51_*.npz
+__pycache__/
