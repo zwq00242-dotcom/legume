@@ -1,0 +1,36 @@
+{
+  "gamma": {
+    "frequency": 0.9364949304843935,
+    "subspace_modes": [
+      2,
+      3
+    ],
+    "projection_overlap": 0.999896797257876,
+    "frequency_im": 1.819881889591578e-31,
+    "Q": 2.572955244624594e+30,
+    "coupling_squared_sum": 1.3456693673844634e-29,
+    "coefficients": [
+      [
+        0.03660367831794209,
+        -3.673413396480325e-24
+      ],
+      [
+        -0.9993298608235404,
+        -1.914244595247691e-16
+      ]
+    ],
+    "mirror_at_anchor": {
+      "character": -1.0,
+      "residual": 1.978081852993886e-13
+    }
+  },
+  "loop": {
+    "radius": 0.02,
+    "n": 96,
+    "charge": -2.0,
+    "max_double_angle_step_deg": 16.661534936406408,
+    "closure_overlap": 0.9980948917288679,
+    "min_overlap": 0.9975297530727734,
+    "charge_48_subsample": -2.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "points": 65,
+  "mode_indices": [
+    2
+  ],
+  "min_overlap": 0.9953723749452873,
+  "max_frequency_step": 3.29322203294069e-05,
+  "max_log10_Q_step": 0.02114859383256773,
+  "minimum_gap": 0.0001717300138665001
+}

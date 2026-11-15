@@ -1,0 +1,104 @@
+{
+  "max_abs_S3_over_S0": 0.002387552622769197,
+  "minimum_linear_fraction": 0.999997149792175,
+  "rows": 961,
+  "valid": 960,
+  "raw_jones_stokes_consistent": true,
+  "psi_from_raw_stokes": true,
+  "neighbor_path_consistency": true,
+  "shared_current_branch_checks": [
+    {
+      "q": [
+        -0.08,
+        -0.08
+      ],
+      "frequency_difference": -3.552713678800501e-15,
+      "axis_difference_deg": 1.2340552164078445e-12
+    },
+    {
+      "q": [
+        0.0,
+        -0.08
+      ],
+      "frequency_difference": 8.881784197001252e-16,
+      "axis_difference_deg": 5.870066217173586e-13
+    },
+    {
+      "q": [
+        0.08,
+        -0.08
+      ],
+      "frequency_difference": -8.881784197001252e-16,
+      "axis_difference_deg": 9.032775295356387e-13
+    },
+    {
+      "q": [
+        -0.08,
+        0.0
+      ],
+      "frequency_difference": 5.551115123125783e-16,
+      "axis_difference_deg": -7.783178705156926e-13
+    },
+    {
+      "q": [
+        0.08,
+        0.0
+      ],
+      "frequency_difference": -1.5543122344752192e-15,
+      "axis_difference_deg": -8.085279571859224e-12
+    },
+    {
+      "q": [
+        -0.08,
+        0.08
+      ],
+      "frequency_difference": 6.661338147750939e-16,
+      "axis_difference_deg": -6.462887112733866e-12
+    },
+    {
+      "q": [
+        0.0,
+        0.08
+      ],
+      "frequency_difference": 3.6637359812630166e-15,
+      "axis_difference_deg": -6.883481916175977e-12
+    },
+    {
+      "q": [
+        0.08,
+        0.08
+      ],
+      "frequency_difference": -2.220446049250313e-15,
+      "axis_difference_deg": 1.6666106530868828e-12
+    }
+  ],
+  "outer_boundary_convergence": {
+    "120": {
+      "charge": 1.4135798584282297e-16,
+      "max_double_angle_step_deg": 99.67621061045908,
+      "minimum_linear_fraction": 0.9999975483476696
+    },
+    "240": {
+      "charge": -7.067899292141149e-17,
+      "max_double_angle_step_deg": 81.33454150093897,
+      "minimum_linear_fraction": 0.999997358148089
+    },
+    "480": {
+      "charge": 0.0,
+      "max_double_angle_step_deg": 55.34524688215317,
+      "minimum_linear_fraction": 0.999997358148089
+    },
+    "closure_overlap": 0.9999892105729633,
+    "minimum_accepted_overlap": 0.9828020347242217
+  },
+  "local_continuity": {
+    "points": 65,
+    "mode_indices": [
+      2
+    ],
+    "min_overlap": 0.9953723749452873,
+    "max_frequency_step": 3.29322203294069e-05,
+    "max_log10_Q_step": 0.02114859383256773,
+    "minimum_gap": 0.0001717300138665001
+  }
+}

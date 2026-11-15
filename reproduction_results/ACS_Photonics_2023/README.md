@@ -28,3 +28,8 @@ No RCWA transmittance-scan result files for this paper were found in the current
 - `figures/`: generated band and convergence figures, grouped by resolution
 - `COMSOL/`: reserved conceptually for exported COMSOL results only; no files currently archived
 - `RCWA/`: reserved conceptually for RCWA numerical results; no files currently archived
+
+
+## Mode 2 polarization diagnosis
+
+See [mode2_diagnosis](mode2_diagnosis/README.md) for the single-point/multimode and full 2D diagnostics, raw data, independently checked tracking, and short-line figures. The physical identification remains inconclusive (F): the candidate is not globally orthogonal to the original branch.

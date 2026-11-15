@@ -1,0 +1,32 @@
+[
+  {
+    "path": "reproduction_results/ACS_Photonics_2023/polarization_map_FigS1/scripts/compute_modes.py",
+    "unchanged": true,
+    "sha256": "438e7720b0feb6bf485e9b0575c93e3a18a6d7da1240182f59050cdf4feadc1e"
+  },
+  {
+    "path": "reproduction_results/ACS_Photonics_2023/polarization_map_FigS1/scripts/extract_farfield.py",
+    "unchanged": true,
+    "sha256": "0a96a98f89386ef254bbfe5291feff4f0a257a32cb00b4d5da603d46518ed551"
+  },
+  {
+    "path": "reproduction_results/ACS_Photonics_2023/polarization_map_FigS1/scripts/track_modes.py",
+    "unchanged": true,
+    "sha256": "0b27da206492a4d44c66786c60d433ed7a67d53db156fcfc56492fce201db171"
+  },
+  {
+    "path": "reproduction_results/ACS_Photonics_2023/polarization_map_FigS1/scripts/plot_polarization.py",
+    "unchanged": true,
+    "sha256": "8a1bf7bad8a7bf45b270ad308a76966ee2e7de86a29f3649be19d88bf41bbafa"
+  },
+  {
+    "path": "reproduction_results/ACS_Photonics_2023/polarization_map_FigS1/figures/FigS1a_polarization_map.png",
+    "unchanged": true,
+    "sha256": "cda300a56da5cdc2b945b8b25ba56684a64483ddca4bbe6cafddd86b106b08c5"
+  },
+  {
+    "path": "reproduction_results/ACS_Photonics_2023/polarization_map_FigS1/data/grid31.npz",
+    "unchanged": true,
+    "sha256": "e7e25c5a31b2b5bdec5455e55ad8b586f4713800691d890c5f57786a44b9280a"
+  }
+]

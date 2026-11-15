@@ -1,0 +1,19 @@
+{
+  "120": {
+    "charge": 1.4135798584282297e-16,
+    "max_double_angle_step_deg": 99.67621061045908,
+    "minimum_linear_fraction": 0.9999975483476696
+  },
+  "240": {
+    "charge": -7.067899292141149e-17,
+    "max_double_angle_step_deg": 81.33454150093897,
+    "minimum_linear_fraction": 0.999997358148089
+  },
+  "480": {
+    "charge": 0.0,
+    "max_double_angle_step_deg": 55.34524688215317,
+    "minimum_linear_fraction": 0.999997358148089
+  },
+  "closure_overlap": 0.9999892105729633,
+  "minimum_accepted_overlap": 0.9828020347242217
+}

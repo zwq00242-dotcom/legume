@@ -1,0 +1,173 @@
+{
+  "source_repository": "https://github.com/zwq00242-dotcom/legume",
+  "solver_baseline_commit": "e205b78e14bc0b2aed9ca069d0a96162a1a75aed",
+  "legume_version": "1.0.3",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "autograd": "1.9.1"
+  },
+  "notes": [
+    "Source scripts were relocated and made repository-relative; underlying Legume solver and pre-existing reproduction results are unchanged.",
+    "Original root-level working copies, superseded backups, and transient git-status files remain local and are not part of this archive."
+  ],
+  "files": [
+    {
+      "original_name": "ACS_12point_polarization_angles.csv",
+      "path": "data/polarization_loop12.csv",
+      "sha256": "e74f5414252be949a01f67ea4d5322c17098987b96c8d78bafc25e5b9140cd77"
+    },
+    {
+      "original_name": "ACS_12point_polarization_comparison.png",
+      "path": "figures/polarization_loop12_comparison.png",
+      "sha256": "29f95aabfc980d49a12e583b0de9ba33f14597e7c34ad60d8f582a2274f86af0"
+    },
+    {
+      "original_name": "ACS_basis_algebra_check.csv",
+      "path": "data/basis_algebra_check.csv",
+      "sha256": "2dfe8b04051767119f87327455466c62af01afa623295c1734f79df0e41f9d20"
+    },
+    {
+      "original_name": "ACS_current_samegrid.csv",
+      "path": "data/fullgrid_current.csv",
+      "sha256": "0d28668936a11ee2ea47659e842e9ca0e0c72fd6294a0e09d9a305928d5b56f6"
+    },
+    {
+      "original_name": "ACS_current_selected_eigenvectors.npz",
+      "path": "data/eigenvectors_current.npz",
+      "sha256": "bbc964b5722e001daeb2a1c0f7fa9388bc9245f050a8f5542fcb28a758a6064c"
+    },
+    {
+      "original_name": "ACS_current_vs_mode2_comparison.png",
+      "path": "figures/current_vs_mode2.png",
+      "sha256": "faa0bbf5214b13e2688424bee2da663bbb59a69ba87ad8c6fa8cc885d9f889ab"
+    },
+    {
+      "original_name": "ACS_current_vs_mode2_comparison_shortlines.png",
+      "path": "figures/current_vs_mode2_shortlines.png",
+      "sha256": "268d1828224280bfb44cde8c1352546404f9ed44e708771785b7b852c9b42537"
+    },
+    {
+      "original_name": "ACS_gamma_nearfields.png",
+      "path": "figures/gamma_nearfields.png",
+      "sha256": "e14fbeaa2742e693b77b744513b7bbba2cfb2e881f7aa9c593b29127e5bb0c1a"
+    },
+    {
+      "original_name": "ACS_mode2_FigS1a_polarization_map.png",
+      "path": "figures/mode2_polarization.png",
+      "sha256": "a79bc102453c94ad9b90d07b75761b1aba8c5b375ee97db849aebde06494cd6f"
+    },
+    {
+      "original_name": "ACS_mode2_FigS1a_polarization_map_shortlines.png",
+      "path": "figures/mode2_polarization_shortlines.png",
+      "sha256": "696f6d050d46a12aad1e58d2075fa97c42473f440aaf53d2413ffa8e285c0226"
+    },
+    {
+      "original_name": "ACS_mode2_adaptive_tracking.csv",
+      "path": "data/adaptive_tracking.csv",
+      "sha256": "e03d98b058f1e37e10c16f3a4156e790b4dd594c01f4591601af056e3301c848"
+    },
+    {
+      "original_name": "ACS_mode2_all_frequencies.npz",
+      "path": "data/eigenfrequencies_fullgrid.npz",
+      "sha256": "cf17f378c5f6426c4e3d622ab6605e86c936046b949ce3e88fad31cc3d615699"
+    },
+    {
+      "original_name": "ACS_mode2_anchor_and_gamma.npz",
+      "path": "data/anchor_and_gamma_subspace.npz",
+      "sha256": "3f333c2d28e144815bc91ed47126119bc9268e6659253322988ad2074227f681"
+    },
+    {
+      "original_name": "ACS_mode2_dense_loop_validation.json",
+      "path": "validation/circle_loop96.json",
+      "sha256": "48e304d4e2306bc3d75f8b7b2721d42e4e059f1829f9b5e46547207c6db0106e"
+    },
+    {
+      "original_name": "ACS_mode2_fullgrid.csv",
+      "path": "data/fullgrid_mode2.csv",
+      "sha256": "d0ed25301ea26192ab6af8163049ca996cd9dab5552f00d62ee5223f0589a8ef"
+    },
+    {
+      "original_name": "ACS_mode2_fullmap_validation.json",
+      "path": "validation/fullgrid_summary.json",
+      "sha256": "0a463f6ed0b5ff6352487272cdfa9427724dba1edd1feb90c140909e3a82ac02"
+    },
+    {
+      "original_name": "ACS_mode2_local_continuity.csv",
+      "path": "data/local_continuity65.csv",
+      "sha256": "6b7d32da260988081e8ee9f6d34337aa08c2569bcfd10aea398542b3b1ef8992"
+    },
+    {
+      "original_name": "ACS_mode2_local_continuity.json",
+      "path": "validation/local_continuity65.json",
+      "sha256": "c20f4279141810686b0dea01a5b52299d61116eda9e3ece90bfb5aff4107b45c"
+    },
+    {
+      "original_name": "ACS_mode2_loop96.csv",
+      "path": "data/circle_loop96.csv",
+      "sha256": "19da451644010edeaf4905e102992d970612270a23c31ed9d5752e64da6e346a"
+    },
+    {
+      "original_name": "ACS_mode2_neighbor_continuity.csv",
+      "path": "data/neighbor_continuity.csv",
+      "sha256": "4ce95b41f6fa2f029259519f0ef562212c560d9d9e8f479226a8c124eec32caf"
+    },
+    {
+      "original_name": "ACS_mode2_original_files_integrity.json",
+      "path": "validation/original_files_integrity.json",
+      "sha256": "f7a8c03a0f3b74155d481ad172ee1a3852481eb5a00596bb8c28369db0fcdc20"
+    },
+    {
+      "original_name": "ACS_mode2_outer_boundary480.csv",
+      "path": "data/outer_boundary480.csv",
+      "sha256": "4e18c563a748ac1b5b2d4fd449bd019bffaa4fbd48a1e30956f40823ec5b7242"
+    },
+    {
+      "original_name": "ACS_mode2_outer_boundary_validation.json",
+      "path": "validation/outer_boundary_convergence.json",
+      "sha256": "fe3f4be2f069abe4f7ead40af6f8c25a8a61a05c7e8d477f28d78c9f2f4ac739"
+    },
+    {
+      "original_name": "ACS_mode2_output_checks.json",
+      "path": "validation/output_checks.json",
+      "sha256": "4916ba2f67cd57e525c73bbe6f95143e14d5160aa6f4acc17d3424a008be9d4c"
+    },
+    {
+      "original_name": "ACS_mode2_radial_validation.csv",
+      "path": "data/radial_mode2.csv",
+      "sha256": "1a0ec08526083f7ac1461cac1bdea85fa00e0600d104851cef09c9884b8ca51c"
+    },
+    {
+      "original_name": "ACS_mode2_selected_eigenvectors.npz",
+      "path": "data/eigenvectors_mode2.npz",
+      "sha256": "c41817b4c8d7c19a17dd7250108bda3c0c94bbebef4d569fe47f8b6f76e29df5"
+    },
+    {
+      "original_name": "ACS_mode2_tracking_diagnostics.png",
+      "path": "figures/tracking_diagnostics.png",
+      "sha256": "25d35bf0ca9540f0902c2ede67cc3efdb1a765b7273dcfb0aacba64987b25bf8"
+    },
+    {
+      "original_name": "ACS_mode_diagnosis_summary.json",
+      "path": "validation/candidate_modes.json",
+      "sha256": "be3cd8694d64f42e41e37552c005372129e0cde647f3e263dbb27382576cc2f1"
+    },
+    {
+      "original_name": "ACS_radial_mode_tracking.csv",
+      "path": "data/radial_candidate_modes.csv",
+      "sha256": "9f9c1570243a4671a04920e7929f961feb862cc6fdfaea7875f3977e03d5df27"
+    },
+    {
+      "original_name": "ACS_single_point_extraction_comparison.csv",
+      "path": "data/single_point_extraction_methods.csv",
+      "sha256": "00cd72ef3d76dddb3388759361c09066cb6e3a948bdbc124a01e43bf4b91540d"
+    },
+    {
+      "original_name": "ACS_single_point_mode_table.csv",
+      "path": "data/single_point_modes.csv",
+      "sha256": "fb9c3208c87cc648eb52c686b1051292b318014d7103d1680bf337f322b6c04e"
+    }
+  ]
+}

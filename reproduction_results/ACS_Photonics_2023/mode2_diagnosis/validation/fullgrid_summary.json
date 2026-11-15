@@ -1,0 +1,166 @@
+{
+  "source_commit": "e205b78e14bc0b2aed9ca069d0a96162a1a75aed",
+  "grid": 31,
+  "extent": 0.08,
+  "original_extent": 0.15,
+  "solver": {
+    "gmax": 4.5,
+    "basis": [
+      0,
+      3
+    ],
+    "numeig": 12
+  },
+  "structure": {
+    "lattice": "hexagonal",
+    "a_nm": 724.0,
+    "thickness_over_a": 0.13812154696132597,
+    "radius_over_a": 0.27624309392265195,
+    "slab_eps": 4.0,
+    "upper_cladding_eps": 1.0,
+    "lower_cladding_eps": 1.0
+  },
+  "gamma": {
+    "current_center": {
+      "Ex_real": 4.1235390836248083e-16,
+      "Ex_imag": -3.087718554434566e-16,
+      "Ey_real": -8.429816008835484e-16,
+      "Ey_imag": 5.909135731683697e-16,
+      "S0": 1.3251726348386085e-30,
+      "S1": -7.944210259269921e-31,
+      "S2": -1.0601284763918247e-30,
+      "S3": -3.3246943218185104e-32
+    },
+    "upper_s": [
+      1.7477206834427562e-15,
+      -1.1750185473868617e-15
+    ],
+    "upper_p": [
+      -1.2013053793894611e-15,
+      8.21083573869364e-16
+    ],
+    "upper_S1": -2.3178833242086006e-30,
+    "upper_S2": -6.1286693738824034e-30,
+    "upper_S3": -4.6937286056716327e-32,
+    "all_frequencies": [
+      4.650379724543358e-08,
+      0.8874621514163725,
+      0.9364949304843934,
+      0.9364949304843936,
+      0.9578101181401628,
+      1.0420493002883822,
+      1.042049300288385,
+      1.4026643614472887,
+      1.4071511238956327,
+      1.4071511238956345,
+      1.4379892967090082,
+      1.4379892967090104
+    ],
+    "upper_Ex": [
+      1.2013053793894611e-15,
+      -8.21083573869364e-16
+    ],
+    "upper_Ey": [
+      -1.7477206834427562e-15,
+      1.1750185473868617e-15
+    ],
+    "upper_S0": 6.552509023864889e-30,
+    "current_frequency": 0.8874621514163725,
+    "current_fim": 3.71313549684956e-32,
+    "current_Q": 1.1950306582797032e+31,
+    "frequency": 0.9364949304843935,
+    "subspace_modes": [
+      2,
+      3
+    ],
+    "projection_overlap": 0.999896797257876,
+    "frequency_im": 1.819881889591578e-31,
+    "Q": 2.572955244624594e+30,
+    "coupling_squared_sum": 1.3456693673844634e-29,
+    "coefficients": [
+      [
+        0.03660367831794209,
+        -3.673413396480325e-24
+      ],
+      [
+        -0.9993298608235404,
+        -1.914244595247691e-16
+      ]
+    ],
+    "mirror_at_anchor": {
+      "character": -1.0,
+      "residual": 1.978081852993886e-13
+    }
+  },
+  "loop": {
+    "radius": 0.02,
+    "n": 96,
+    "charge": -2.0,
+    "max_double_angle_step_deg": 16.661534936406408,
+    "closure_overlap": 0.9980948917288679,
+    "min_overlap": 0.9975297530727734,
+    "charge_48_subsample": -2.0
+  },
+  "valid_points": 960,
+  "masked_points": 1,
+  "intensity_floor2": 2.3785227414262077e-13,
+  "intensity_floor1": 2.393511938576433e-14,
+  "orthogonal_error_deg": {
+    "median": 14.892449595244244,
+    "p90": 41.01629102216821,
+    "maximum": 80.20486791664108
+  },
+  "fraction_within_1deg": 0.10833333333333334,
+  "fraction_within_5deg": 0.24166666666666667,
+  "minimum_accepted_overlap": 0.9711853687017367,
+  "minimum_margin": 0.7421280323434305,
+  "adaptive_points": 6088,
+  "neighbor_edges_checked": 1856,
+  "neighbor_edges_refined": 382,
+  "path_inconsistencies": 0,
+  "mode_indices": [
+    -1,
+    2
+  ],
+  "maximum_neighbor_frequency_step": 0.0025874128381367933,
+  "maximum_neighbor_log10_Q_step": 0.6106025464498375,
+  "minimum_neighbor_overlap": 0.23722799590446983,
+  "elapsed_seconds": 366.6238706111908,
+  "grid_square_loops": [
+    {
+      "halfwidth": 0.016,
+      "points": 24,
+      "charge": -2.0,
+      "max_double_angle_step_deg": 76.48153990268652,
+      "all_valid": true
+    },
+    {
+      "halfwidth": 0.032,
+      "points": 48,
+      "charge": -2.0,
+      "max_double_angle_step_deg": 47.8538267758523,
+      "all_valid": true
+    },
+    {
+      "halfwidth": 0.048,
+      "points": 72,
+      "charge": -2.0,
+      "max_double_angle_step_deg": 46.244371138812696,
+      "all_valid": true
+    },
+    {
+      "halfwidth": 0.06399999999999999,
+      "points": 96,
+      "charge": -2.0000000000000004,
+      "max_double_angle_step_deg": 78.33275550675293,
+      "all_valid": true
+    },
+    {
+      "halfwidth": 0.08,
+      "points": 120,
+      "charge": 0.0,
+      "max_double_angle_step_deg": 99.67621061047733,
+      "all_valid": true
+    }
+  ]
+}

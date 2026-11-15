@@ -1,0 +1,19 @@
+{
+  "validation_cwd": "/tmp",
+  "passed": [
+    "check_basis_conventions.py",
+    "diagnose_modes.py: 18 k points, 12 eigenmodes each",
+    "compute_mode2_fullmap.py --loop-only: 96 points, charge -2",
+    "validate_local_continuity.py: 65 points",
+    "validate_fullmap.py: archived 961-row output and 1856 neighbor edges",
+    "plot_shortlines.py: both maps rendered from archived CSVs"
+  ],
+  "not_recomputed_after_relocation": [
+    "complete 31x31 grid",
+    "480-point outer boundary; original successful result retained"
+  ],
+  "original_artifact_hashes_verified": true,
+  "original_artifacts_retained_after_smoke_checks": [
+    "validation/circle_loop96.json"
+  ]
+}
