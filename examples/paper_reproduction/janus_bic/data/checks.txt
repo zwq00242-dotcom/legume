@@ -1,0 +1,37 @@
+[1] dd=0: Gamma TM1 f=0.56473; off-Gamma BIC on +kx axis at u=0.02830 (Q=1.01e+21)
+    up/down state fidelity |<Eu|Ed>|/(|Eu||Ed|): min=1.0000000000
+    |Ed|/|Eu| range: 1.000000..1.000000
+    max |major-axis angle difference| = 4.00e-09 deg
+    max |S3_up - S3_down| = 3.33e-10; max|S3| = 2.11e-03
+    relative phase Ed/Eu (deg): [-180.  180.]
+    loop Gamma r=0.01 : q_up=+1.000  q_down=+1.000
+    loop Gamma r=0.02 : q_up=+1.000  q_down=+1.000
+    loop +u BIC       : q_up=-1.000  q_down=-1.000
+    loop -u BIC       : q_up=-1.000  q_down=-1.000
+[2] complex far field at (0.01,0) and (0,0.01)  [exp(-i w t), physical k]
+    dd= 0.0 (0.01,0): f=0.56401 Q=1.976e+07
+       up   c_te=-4.9632e-15-1.9879e-15j c_tm=-3.2873e-04-4.5803e-04j  Ex=-3.2873e-04-4.5803e-04j Ey=-4.9632e-15-1.9879e-15j  |Ey/Ex|=9.483e-12
+       down c_te=-1.0327e-15+3.4973e-15j c_tm=-3.2873e-04-4.5803e-04j  Ex=+3.2873e-04+4.5803e-04j Ey=-1.0327e-15+3.4973e-15j  |Ey/Ex|=6.468e-12
+    dd= 0.0 (0,0.01): f=0.56450 Q=6.870e+05
+       up   c_te=+4.1060e-15-7.7696e-16j c_tm=+1.7519e-03+2.4671e-03j  Ex=-4.1339e-15+7.3770e-16j Ey=+1.7519e-03+2.4671e-03j  |Ey/Ex|=7.206e+11
+       down c_te=+3.7992e-15-1.1804e-15j c_tm=+1.7519e-03+2.4671e-03j  Ex=-3.7713e-15+1.2197e-15j Ey=-1.7519e-03-2.4671e-03j  |Ey/Ex|=7.634e+11
+    dd=12.0 (0.01,0): f=0.56529 Q=5.510e+05
+       up   c_te=+4.7975e-15-4.8665e-15j c_tm=+3.6368e-03-8.6196e-06j  Ex=+3.6368e-03-8.6196e-06j Ey=+4.7975e-15-4.8665e-15j  |Ey/Ex|=1.879e-12
+       down c_te=+9.4820e-15+1.2410e-15j c_tm=-2.7205e-03+1.5057e-03j  Ex=+2.7205e-03-1.5057e-03j Ey=+9.4820e-15+1.2410e-15j  |Ey/Ex|=3.075e-12
+    dd=12.0 (0,0.01): f=0.56582 Q=2.506e+05
+       up   c_te=+1.3937e-15+1.4009e-15j c_tm=+1.7882e-03-3.5630e-03j  Ex=-1.4222e-15-1.3441e-15j Ey=+1.7882e-03-3.5630e-03j  |Ey/Ex|=2.037e+12
+       down c_te=-6.4746e-16-1.4903e-15j c_tm=-5.6370e-03-1.6627e-03j  Ex=+5.5775e-16+1.4639e-15j Ey=+5.6370e-03+1.6627e-03j  |Ey/Ex|=3.752e+12
+    bookkeeping: in-plane p-hat || k, s-hat _|_ k (E || x at k || x is p, E || y at k || y is p).  On the mirror lines (sigma_x, sigma_y) the radiation must be pure s or pure p (linear).
+[3] dd=12 nm: charges on loops around Gamma
+    r=0.002: q_up=-1.000 q_down=-1.000   (projected field: -1.000, -1.000)   min overlap=0.999
+    r=0.004: q_up=-1.000 q_down=-1.000   (projected field: -1.000, -1.000)   min overlap=0.999
+    r=0.006: q_up=-1.000 q_down=-1.000   (projected field: -1.000, -1.000)   min overlap=0.999
+    r=0.010: q_up=-1.000 q_down=-1.000   (projected field: -1.000, -1.000)   min overlap=0.997
+    r=0.015: q_up=-1.000 q_down=-1.000   (projected field: -1.000, -1.000)   min overlap=0.997
+    r=0.020: q_up=-1.000 q_down=-1.000   (projected field: -1.000, -1.000)   min overlap=0.998
+    r=0.030: q_up=-1.000 q_down=-1.000   (projected field: -1.000, -1.000)   min overlap=0.993
+[+] Ellipse vs equal-area polygon (gmax=4, 8 guided modes)
+    ellipse N=  0: f_Gamma=0.564755  u_BIC=0.02669
+    poly    N= 32: f_Gamma=0.564756  u_BIC=0.02669
+    poly    N= 64: f_Gamma=0.564755  u_BIC=0.02669
+    poly    N=128: f_Gamma=0.564755  u_BIC=0.02669
